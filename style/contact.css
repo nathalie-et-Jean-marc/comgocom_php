@@ -1,0 +1,33 @@
+/* Pour la page contacts.php */
+
+
+.boiteContacts {
+    margin-top: 50px;
+    margin-left:50px;    
+    font-size:18px; 
+    width:650px;
+    text-indent:32px; /*Pour décaller de 32px le premier mot d'un paragraphe <p></p> */
+    text-align:justify;
+    background-color:#BAD1E4; /*#ADD8FB;*/
+    border:1px solid #2E64FE;
+    padding:20px;
+    box-shadow:2px 2px 10px #2E64FE inset;
+    -moz-box-shadow:2px 2px 10px #2E64FE inset;
+    -webkit-box-shadow:2px 2px 10px #2E64FE inset;
+}
+
+.boiteContacts span {
+    background-color:#ADD8E6;
+}
+
+.boiteContacts table {
+    margin-left:70px;
+    border:1px solid blue;
+    width:70%;
+    font-size:18px;
+ }
+
+.boiteContacts td { 
+    padding:5px;
+}
+

@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    position: relative;/* Crucial pour la taille du footer relative au html*/
+    margin: 0;
+    padding-bottom: 6rem;/* Crucial pour la hauteur du footer relative au html */
+    min-height: 100%;    
+    background-color: #7db7e7;
+}
+
+
+
+.header {
+    margin:0;
+   /* overflow: hidden;  //pas de scroll dans le header*/
+    height: auto;
+
+}
+
+.bandereau {
+      min-width:1000px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /************** couleurs : centre, intermédiaire, bord extérieur *****************/
+
+    /*      caillou dans l'eau      */
+/* background: -webkit-repeating-radial-gradient(#0080FF, #0431B4 10%, #0B0B3B 15%); /* For Safari 5.1 to 6.0 */
+    /* background: -o-repeating-radial-gradient(#0080FF, #0431B4 10%, #0B0B3B 15%); /* For Opera 11.6 to 12.0 */
+    /* background: -moz-repeating-radial-gradient(#0080FF, #0431B4 10%, #0B0B3B 15%); /* For Firefox 3.6 to 15 */
+    /* background: repeating-radial-gradient(#0080FF, #0431B4 10%, #0B0B3B 15%); /*Standard syntax (must be last) */ 
+
+    /*      soleil levant       */
+
+    background: -webkit-radial-gradient(#0080FF, #0431B4 30%, #0B0B3B 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#0080FF, #0431B4 30%, #0B0B3B 50%); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#0080FF, #0431B4 30%, #0B0B3B 50%); /* For Fx 3.6 to 15 */
+    background: radial-gradient(#0080FF, #0431B4 30%, #0B0B3B 50%); /* Standard syntax (must be last) */    
+}
+
+.bandereau div {
+    height: 80px;    
+    line-height: 80px;
+    text-align: center;
+    font-size:30px;
+    font-family:cursive;
+}
+
+.lien {
+     min-width:1000px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    padding:0px 100px 0px 100px;
+    background-color: #08088A;
+    font-size:18px;
+    color: #d0e4fe;
+    font-family:cursive;
+}
+
+.lien a {
+    color:#E0F8F7;
+    text-decoration:none; 
+    font-family:cursive;
+}
+
+.lien a:hover {
+    color: #AFEEEE; /*#F2F2F2;*/
+    text-decoration:underline;
+    font-family:cursive;
+}
+
+
+.body {
+    margin: 0 ;
+    /*padding-top: 64px;*/    
+    /*background-color:#A9D0F5;*/
+    padding:2px;
+    min-width:1000px;
+}
+
+.footer {
+    position: relative; /*Pour que le footer soit fixé en bas et indépendamment de la taille de la div de classe .body*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem;
+    top:500px;
+    text-align: center;    
+    /*background-color:#BAD1E4;*/
+}
+
+
+
+
+/* page activation.php  */
+
+.activation {
+    margin-top:10%;
+    margin-left:35%;
+    color:green;
+    font-size:22px;
+}
+
+            /*a.stylebouton {
+            -webkit-border-radius: 1px;
+            -moz-border-radius: 1px;
+            border-radius: 1px;
+            border: solid thin #929292;
+            text-shadow: none;
+            background: #F6F6F6;
+            background-image: -webkit-linear-gradient(top, #F6F6F6, #DDDDDD);
+            background-image: -moz-linear-gradient(top, #F6F6F6, #DDDDDD);
+            background-image: -ms-linear-gradient(top, #F6F6F6, #DDDDDD);
+            background-image: -o-linear-gradient(top, #F6F6F6, #DDDDDD);
+            background-image: linear-gradient(to bottom, #F6F6F6, #DDDDDD);    
+            color: buttontext;
+            padding: 3px 8px;
+            margin: 2px;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 13.1999998092651px;
+            }
+            a.stylebouton:hover {
+            background-image: -webkit-linear-gradient(top, #DDDDDD, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #DDDDDD, #F6F6F6);
+            background-image: -ms-linear-gradient(top, #DDDDDD, #F6F6F6);
+            background-image: -o-linear-gradient(top, #DDDDDD, #F6F6F6, #DDDDDD);
+            background-image: linear-gradient(to bottom, #DDDDDD, #F6F6F6);
+            }*/
+

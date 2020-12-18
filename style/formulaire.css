@@ -1,0 +1,91 @@
+
+.validation {
+    margin-left:30%;
+    color: #8A0829;
+    font-family:sans-serif;
+    margin-top:2%;
+    margin-bottom:1%;
+}
+.validation label {
+    line-height:25px;
+}
+
+.error {
+    color: #8A0829;
+}
+
+.formulaire {
+    margin-top:2%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left:30%;
+}
+
+.formulaire form {
+
+    width:350px;
+    background-color:#BAD1E4; /*#A9D0F5;*/
+    border:1px solid #2E64FE;
+    padding:30px;
+    box-shadow:2px 2px 10px #2E64FE inset;
+    -moz-box-shadow:2px 2px 10px #2E64FE inset;
+    -webkit-box-shadow:2px 2px 10px #2E64FE inset;    
+ }
+
+.formulaire label {
+    font-family:sans-serif;
+    font-weight:bold;
+margin-left:30px;    
+}
+
+.formulaire legend {
+    font-family:sans-serif;
+    color: #0B173B;
+    font-weight:bold;
+    font-size:25px;
+    text-align:center;
+ }
+
+.formulaire input, textarea, select, option {
+    background-color: #F2F2F2;
+ }
+
+.formulaire input, textarea, select {
+    margin-top:3px;
+    margin-left:10%;
+    margin-bottom:10px;
+    padding:5px;
+    border:1px ;
+    border-radius:5px;
+
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    font-size:15px;
+ }
+
+.formulaire input[type=submit], input[type=reset] {
+    background-color:#D8D8D8; /* #D8D8D8;#A9D0F5*/
+    width: 90px;
+    margin-top:5px;
+    margin-left:80px;
+    border:1px; 
+    box-shadow:1px 1px 1px #d0e4fe;
+    cursor:pointer;
+    font-size:14px;
+ }
+
+.formulaire input[type=submit]:hover {
+    background-color: #F2F2F2;
+    font-weight:bold;
+}
+
+.saisie {
+    text-align:center; 
+    width:150px;
+    margin-top:10px;
+    margin-left:50px;
+    
+}

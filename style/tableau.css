@@ -1,0 +1,42 @@
+table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width:3%; 
+
+} 
+th {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    padding: 5px;
+    background-color:#A9D0F5;
+    text-align:center;
+}
+tr {
+    background-color:#C9E3F8;
+}
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    padding:5px;
+    text-align:left;
+}
+caption {
+    font-family: sans-serif;
+}
+
+.modifier {
+    margin-top:4px;
+
+}
+
+.modifier th {
+    min-width:30px;
+
+}
+
+.modifier td {
+    font-weight:bold;
+    text-decoration:none; 
+} 
+
+
